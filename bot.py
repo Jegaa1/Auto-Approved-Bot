@@ -35,7 +35,7 @@ pr0fess0r_99=Client(
     api_hash = "fcdc178451cd234e63faefd38895c991"
 )
 
-CHAT_ID = none
+CHAT_ID = None
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
